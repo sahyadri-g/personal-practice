@@ -11,8 +11,8 @@ import { useState } from "react";
 function RatingSelector() {
   const [Rating, setRating] = useState(0);
 
-  const rating = () => {
-    setRating(1);
+  const rating = (value) => {
+    setRating(value);
 
   };
   
