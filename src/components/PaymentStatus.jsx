@@ -10,17 +10,19 @@ import React from 'react'
 
 function PaymentStatus(props) {
         const {status} = props;
+        let message = "";
         if(status == "success"){
-            return "Payment Status is Success";
+            message = "Payment Status is Success";
         }else if(status == "failed"){
-            return "Payment Status is Failed";
-        }else if(status == "Payment status is pending"){
-            return "Pending";
+            message = "Payment Status is Failed";
+        }else if(status == "pending"){
+            message = "Payment status is pending";
         }
 
   return (
     <div>
         <h1>Payment Status</h1>
+        <h2>{message}</h2>
     </div>
   )
 }

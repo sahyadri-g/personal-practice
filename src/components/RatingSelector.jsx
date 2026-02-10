@@ -21,11 +21,11 @@ function RatingSelector() {
     <div>
       <h1>Rating</h1>
       <div>
-        <button onClick={rating} value={1}>1</button>
-        <button onClick={rating} value={2}>2</button>
-        <button onClick={rating} value={3}>3</button>
-        <button onClick={rating} value={4}>4</button>
-        <button onClick={rating} value={5}>5</button>
+        <button onClick={rating}>1</button>
+        <button onClick={rating}>2</button>
+        <button onClick={rating}>3</button>
+        <button onClick={rating}>4</button>
+        <button onClick={rating}>5</button>
       </div>
       
     </div>

@@ -9,15 +9,15 @@ import React from 'react'
 
 function PriceLabel(props) {
     const {price} = props;
-
+    let message = "";
     if(price == 0){
-        return "Product is Free";
+        message = "Product is Free";
     }
 
 
   return (
     <div>
-        <h1>The price of product is ₹{price}</h1>
+        {price ? <h1>The price of product is ₹{price}</h1>:{message}}
     </div>
   )
 }
