@@ -9,6 +9,7 @@ import StockStatus from './components/StockStatus';
 import ThemeToggle from './components/ThemeToggle';
 import TimeGreeting from './components/TimeGreeting';
 import UserExperience from './components/UserExperience';
+import UsernameValidator from './components/UsernameValidator';
 import VisitorCounter from './components/VisitorCounter';
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <>
     {/* <UserExperience name="Sandesh" startYear={2017} /> */}
-    <PriceLabel price={0}/>
+    {/* <PriceLabel price={200}/> */}
     {/* <PaymentStatus status="success"/> */}
     {/* <TimeGreeting Hours={Hours}/> */}
     {/* <StockStatus quantity={0}/> */}
@@ -27,6 +28,7 @@ function App() {
     {/* <ThemeToggle/> */}
     {/* <RatingSelector/> */}
     {/* <ShowPassword/> */}
+    <UsernameValidator/>
     </>
   )
 }

@@ -17,7 +17,8 @@ function PriceLabel(props) {
 
   return (
     <div>
-        {price ? <h1>The price of product is ₹{price}</h1>:{message}}
+        <h1>The price of product is ₹{price}</h1>
+        <h1>{message}</h1>
     </div>
   )
 }
